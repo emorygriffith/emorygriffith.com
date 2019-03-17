@@ -16,8 +16,11 @@ body{
 p a{
   text-decoration: none;
   color: inherit;
-  box-shadow: inset 0 -0.333333em rgba(22,22,22,0.175);
-  transition: all 50ms;
+  box-shadow: inset 0 -0.333333em rgba(96,125,139, 0.5); ;
+  transition: all .15s;
+}
+p a:hover{
+  box-shadow: inset 0 -1em rgba(96,125,139, 0.5); 
 }
 
 
