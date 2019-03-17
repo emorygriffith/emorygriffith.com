@@ -15,25 +15,31 @@
 	</div>
 
 
-	<h2>Recent posts</h2>
- 	<!-- Loop through all posts and list them here -->
-	<?php
-		$args = array(
-		'post_type' => 'post'
-	);
+	<div class="recent-posts">
+		<h2 style="font-size: 18px;">Recent posts</h2>
+		<!-- Loop through all posts and list them here -->
+		<?php
+			$args = array(
+			'post_type' => 'post'
+		);
 
-	$post_query = new WP_Query($args);
+		$post_query = new WP_Query($args);
 
-	if($post_query->have_posts() ) {
-	while($post_query->have_posts() ) {
-	$post_query->the_post();
-	?>
+		if($post_query->have_posts() ) {
+		while($post_query->have_posts() ) {
+		$post_query->the_post();
+		?>
 
-	<h3 class="post-title-list"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-
-	<?php
-	}
-	}
-	?>
+		<div class="post-list">
+			<h3 class="post-title-list"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+			<p class="posted-date"><?php echo get_the_date(); ?></p>
+		</div>
+		
+		<?php
+		}
+		}
+		?>
+	</div>
+	
 
 <?php get_footer(); ?>

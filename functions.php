@@ -188,9 +188,9 @@ external fonts. If you're using Google Fonts, you
 can replace these fonts, change it in your scss files
 and be up and running in seconds.
 */
-function bones_fonts() {
-  wp_enqueue_style('googleFonts', '//fonts.googleapis.com/css?family=Rubik:400,700,400italic,700italic,600,500');
-}
+// function bones_fonts() {
+//   wp_enqueue_style('googleFonts', '//fonts.googleapis.com/css?family=Rubik:400,700,400italic,700italic,600,500');
+// }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 

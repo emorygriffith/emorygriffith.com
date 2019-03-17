@@ -8,18 +8,31 @@ Version: 1.0
 
 body{
   margin: 0;
-  border-top: solid 3px teal;
+  border-top: solid 3px #607D8B;
 }
+
+
+
+p a{
+  text-decoration: none;
+  color: inherit;
+  box-shadow: inset 0 -0.333333em rgba(22,22,22,0.175);
+  transition: all 50ms;
+}
+
 
 /* FONTS */
 h1, h2, h3, h4, h5{
   font-family: sans-serif;
+  color: #212121
 }
 
 p{
   line-height: 1.4;
-  font-size: 18px;
+  font-size: 21px;
+  color: #212121;
 }
+
 
 .container{
   margin: 0 auto;
@@ -29,21 +42,59 @@ p{
 }
 
 
-
 .nav{
 text-align: center;
-padding: 5%;
+padding: 3%;
 }
-
 .nav h1{
   font-size: 48px;
 }
 
 
+
+
+
+
+
+
+
+
+/* HOME PAGE */
 .bio{
-  border: solid 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+
+.recent-posts{
+  padding-top: 6%;
+  border-top: solid 1px #d3d3d3;
+}
+
+.post-list{
+  padding-bottom: 15px;
+}
+
+.post-title-list{
+  margin: 0px;
+}
+.post-title-list a{
+  color: #212121;
+  text-decoration: none;
+  font-size: 24px; 
+}
+
+.posted-date{
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+
+
+
+
+
+/* FOOTER */
 .footer{
   border-top: solid 1px #d3d3d3;
 }

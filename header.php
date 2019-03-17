@@ -19,9 +19,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,400" rel="stylesheet"> -->
 
 		<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 		<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+
+
 
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
