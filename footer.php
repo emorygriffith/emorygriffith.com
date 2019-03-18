@@ -4,7 +4,10 @@
 	</body>
 
 			<footer class="footer container" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-
+				<div class="footer-links">
+					<span>Twitter</span>
+					<span>LinkedIn</span>
+				</div>
 				<p class="copyright">© Emory Griffith <?php echo date("Y"); ?></p>
 			</footer>
 

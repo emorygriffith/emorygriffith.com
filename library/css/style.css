@@ -8,7 +8,7 @@ Version: 1.0
 
 body{
   margin: 0;
-  border-top: solid 3px #607D8B;
+  border-top: solid 10px #607D8B;
 }
 
 
@@ -45,15 +45,17 @@ p{
 
 
 .nav{
-  padding: 3%;
+  padding: 4%;
   display: flex;
 }
 
 
 .name{
   font-size: 48px;
-  /* text-align: left; */
-  padding:2%;
+  padding:3%;
+}
+.home-link{
+  text-decoration: none;
 }
 
 .nav-menu-items{
@@ -69,6 +71,7 @@ p{
   display: inline-block;
   list-style-type: none;
   font-family: sans-serif;
+  font-size: 20px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -123,10 +126,16 @@ p{
 /* FOOTER */
 .footer{
   border-top: solid 1px #d3d3d3;
+  padding-top:20px;
 }
 
-.fa-twitter{
-  height: 2em;
+.footer-links{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links span{
+  padding: 10px;
 }
 
 .copyright{

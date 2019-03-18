@@ -139,6 +139,22 @@
 		"oAP": "/page-about.php",
 		"oF": 0
 		},
+	"/page-consulting.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-consulting.php",
+		"oF": 0
+		},
+	"/page-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-contact.php",
+		"oF": 0
+		},
 	"/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
