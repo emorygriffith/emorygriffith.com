@@ -12,7 +12,6 @@ body{
 }
 
 
-
 p a{
   text-decoration: none;
   color: inherit;
@@ -46,12 +45,34 @@ p{
 
 
 .nav{
-text-align: center;
-padding: 3%;
+  padding: 3%;
+  display: flex;
 }
-.nav h1{
+
+
+.name{
   font-size: 48px;
+  /* text-align: left; */
+  padding:2%;
 }
+
+.nav-menu-items{
+  margin-left: auto;
+}
+
+.nav-menu-items a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-menu-items li{
+  display: inline-block;
+  list-style-type: none;
+  font-family: sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 
 
 
@@ -75,7 +96,7 @@ padding: 3%;
 }
 
 .post-list{
-  padding-bottom: 15px;
+  padding-bottom: 50px;
 }
 
 .post-title-list{
@@ -90,6 +111,8 @@ padding: 3%;
 .posted-date{
   font-family: sans-serif;
   margin: 0px;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 
