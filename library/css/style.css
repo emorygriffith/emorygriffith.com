@@ -41,13 +41,16 @@ p a:hover{
 /* FONTS */
 h1, h2, h3, h4, h5{
   font-family: sans-serif;
-  color: #212121
+  color: rgba(59,59,59,1);
+  /* 59, 59, 59
+  #212121 */
+
 }
 
 p{
   line-height: 1.5;
   font-size: 21px;
-  color: #212121;
+  color: rgba(59,59,59,1);
 }
 
 .light{
@@ -73,8 +76,9 @@ p{
 }
 
 .name-big{
-  font-size: 36px;
+  font-size: 30px;
   margin-right: auto;
+  font-weight: 200;
 }
 .home-link{
   text-decoration: none;
@@ -93,6 +97,7 @@ p{
   display: inline-block;
   list-style-type: none;
   font-family: sans-serif;
+  font-weight: 200;
   font-size: 20px;
   padding-right: 30px;
 }
@@ -155,7 +160,7 @@ p{
 .page-single-title{
   font-size: 48px;
   padding-top:1%;
-  padding-bottom:1%;
+  padding-bottom:3%;
   margin-bottom: 8px;
 }
 
@@ -207,7 +212,8 @@ p{
 /* FOOTER */
 .footer{
   border-top: solid 1px #d3d3d3;
-  padding:50px;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .footer-links{
@@ -217,7 +223,7 @@ p{
 
 .footer-links img{
   padding: 10px;
-  width: 50px;
+  width: 40px;
 }
 
 .copyright{

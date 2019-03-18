@@ -6,17 +6,15 @@
 
 <?php get_header(); ?>
 
-		<a class="home-link" href="/"><h1 class="name-small"><?php bloginfo('name'); ?></h1></a>
-
-		<div class="container">
+		<div class="">
 			<h2 class="page-single-title"><?php the_title(); ?></h2>
-			<p class="page-single-content">
-				<?php 
-					$post = get_post($id); 
-					$content = apply_filters('the_content', $post->post_content); 
-					echo $content;  
-				?>
-			</p>
+			
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+					the_content();
+					endwhile; else: ?>
+					<p>Sorry, no posts matched your criteria.</p>
+				<?php endif; ?>
+		
 		</div>
 	
 	
