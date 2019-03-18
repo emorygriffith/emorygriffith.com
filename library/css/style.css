@@ -6,11 +6,12 @@ Author URI: emorygriffith.com
 Version: 1.0
 */
 
+
+/* GLOBAL STUFF */
 body{
   margin: 0;
   border-top: solid 10px #607D8B;
 }
-
 
 p a{
   text-decoration: none;
@@ -23,6 +24,13 @@ p a:hover{
 }
 
 
+
+
+
+
+
+
+
 /* FONTS */
 h1, h2, h3, h4, h5{
   font-family: sans-serif;
@@ -30,11 +38,24 @@ h1, h2, h3, h4, h5{
 }
 
 p{
-  line-height: 1.4;
+  line-height: 1.5;
   font-size: 21px;
   color: #212121;
 }
 
+.light{
+  color: #616161;
+}
+
+
+
+
+
+
+
+
+
+/* NAVIGATION */
 
 .container{
   margin: 0 auto;
@@ -50,9 +71,10 @@ p{
 }
 
 
-.name{
+.name-big{
   font-size: 48px;
-  padding:3%;
+  padding-top:1%;
+  padding-bottom:1%;
 }
 .home-link{
   text-decoration: none;
@@ -75,6 +97,10 @@ p{
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
+
+
 
 
 
@@ -116,7 +142,39 @@ p{
   margin: 0px;
   font-weight: 300;
   font-size: 16px;
+  padding-top:5px;
 }
+
+.dot{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+
+/* SINGLE BLOG PAGE */
+
+.post-title-single{
+  font-size: 48px;
+  padding-top:1%;
+  padding-bottom:1%;
+  margin-bottom: 8px;
+}
+
+.name-small{
+  font-size: 24px;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -126,7 +184,7 @@ p{
 /* FOOTER */
 .footer{
   border-top: solid 1px #d3d3d3;
-  padding-top:20px;
+  padding:50px;
 }
 
 .footer-links{
@@ -134,11 +192,13 @@ p{
   justify-content: center;
 }
 
-.footer-links span{
+.footer-links img{
   padding: 10px;
+  width: 60px;
 }
 
 .copyright{
   color: #9E9E9E;
   text-align: center;
+  font-size: 12px;
 }

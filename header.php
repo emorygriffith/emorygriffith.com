@@ -54,9 +54,6 @@
 				?>
 		</div>
 	</div> 
-	
-
-	<a class="home-link" href="/"><h1 class="name container"><?php bloginfo('name'); ?></h1></a>
 
 	
 	<div class="main-body container">

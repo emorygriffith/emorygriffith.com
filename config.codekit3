@@ -120,6 +120,39 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"/library/images/emory.jpg": {
+		"ft": 16384,
+		"iS": 2264939,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/library/images/emory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/library/images/linkedin.png": {
+		"ft": 32768,
+		"iS": 12595,
+		"oA": 0,
+		"oAP": "/library/images/linkedin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/library/images/twitter.png": {
+		"ft": 32768,
+		"iS": 13798,
+		"oA": 0,
+		"oAP": "/library/images/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/library/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,

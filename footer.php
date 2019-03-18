@@ -5,8 +5,8 @@
 
 			<footer class="footer container" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 				<div class="footer-links">
-					<span>Twitter</span>
-					<span>LinkedIn</span>
+					<a href="https://twitter.com/emory_griffith"><img src="<?php echo get_template_directory_uri(); ?>/library/images/twitter.png" alt="Twitter Icon"></a>
+					<a href="https://linkedin.com/in/emorygriffith"><img src="<?php echo get_template_directory_uri(); ?>/library/images/linkedin.png" alt="Twitter Icon"></a>
 				</div>
 				<p class="copyright">© Emory Griffith <?php echo date("Y"); ?></p>
 			</footer>
