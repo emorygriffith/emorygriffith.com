@@ -6,18 +6,21 @@
 
 <?php get_header(); ?>
 
-<div class="container">
-		
-	<h1>About Page</h1>
-	<h3>Subtitle</h3>
-	<p>
-		<?php
-			$page = get_page_by_title( 'consulting' );
-			$content = apply_filters('the_content', $page->post_content); 
-			echo $content;
-		?>
-		</h1>
-</p>
+		<a class="home-link" href="/"><h1 class="name-small"><?php bloginfo('name'); ?></h1></a>
 
+		<div class="container">
+			<h2 class="page-single-title"><?php the_title(); ?></h2>
+			<p class="page-single-content">
+				<?php 
+					$post = get_post($id); 
+					$content = apply_filters('the_content', $post->post_content); 
+					echo $content;  
+				?>
+			</p>
+		</div>
+	
+	
+
+		
 
 <?php get_footer(); ?>
