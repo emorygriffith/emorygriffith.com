@@ -36,7 +36,14 @@
 
 	<body class="site" <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
+	<!-- <div class="container">
+		<a class="home-link" href="/"><h1 class="name-big"><?php bloginfo('name'); ?></h1></a>
+	</div> -->
+
 	<div class="nav container">
+		
+		<a class="home-link" href="/"><h1 class="name-big"><?php bloginfo('name'); ?></h1></a>
+
 		<div class="nav-menu-items">
 				<?php wp_nav_menu(array(
 					'container' => false,                           // remove nav container

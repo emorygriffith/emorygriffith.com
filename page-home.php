@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 	
-	<a class="home-link" href="/"><h1 class="name-big"><?php bloginfo('name'); ?></h1></a>
+	<!-- <a class="home-link" href="/"><h1 class="name-big"><?php bloginfo('name'); ?></h1></a> -->
 	
 	<div class="bio">
 		<?php

@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-		<a class="home-link" href="/"><h1 class="name-small"><?php bloginfo('name'); ?></h1></a>
-
-
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<article class="blog-entry-single" id="post-<?php the_ID(); ?>" role="article">
