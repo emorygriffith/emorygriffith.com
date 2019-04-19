@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5{
 
 }
 
-p{
+p, ul, li{
   line-height: 1.5;
   font-size: 21px;
   color: rgba(59,59,59,1);
